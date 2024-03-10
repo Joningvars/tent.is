@@ -1,0 +1,41 @@
+#showMap {
+    /* width: 500px; */
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+
+.card {
+    border: none;
+}
+
+.carousel,
+.carousel-item {
+    /* width: 500px; */
+    height: 400px;
+}
+
+
+h5 {
+    border-bottom: 2px solid #c54d2f;
+}
+
+#comment {
+    border-top: 1px solid #c54d2f5a;
+}
+
+.card-title {
+    font-size: 1.2em;
+
+    color: #dba246;
+}
+
+.stars {
+    height: 2px;
+}
+
+.title {
+    font-weight: 400;
+    color: #c54d2f;
+
+}

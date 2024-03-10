@@ -1,0 +1,51 @@
+<% layout('/layouts/boilerplate') %>
+
+    <div class="row">
+        <h1 class="text-center">Nýtt Tjaldsvæði</h1>
+        <div class="col-md-6 offset-md-3">
+            <form action="/campgrounds" method="POST" novalidate class="validated-form" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label class="form-label" for="title">Titill</label>
+                    <input class="form-control" type="text" id="title" name="campground[title]" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="location">Staðsetning</label>
+                    <input class="form-control" type="text" id="location" name="campground[location]" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="price">Verð</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">kr</span>
+                        <input type="number" class="form-control" placeholder="0" aria-label="price" id="price-label"
+                            aria-describedby="price-label" name="campground[price]" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="description">Lýsing</label>
+                    <textarea class="form-control" type="text" id="description" name="campground[description]"
+                        required></textarea>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="image" class="form-label">Bæta við Mynd</label>
+                    <input class="form-control" type="file" id="image" name="image" multiple required>
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-success">Bæta við</button>
+                    <a class="btn btn-primary" href="/campgrounds">Til baka</a>
+                </div>
+            </form>
+        </div>
+    </div>

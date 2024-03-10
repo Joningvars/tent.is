@@ -1,0 +1,54 @@
+.navbar {
+    background-color: transparent !important;
+    text-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a span {
+    font-weight: 500;
+    color: #d54e2c;
+}
+
+.nav-link {
+    padding-top: 10px;
+    font-weight: 300;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-link:hover {
+    transition: 0.2s ease-in-out;
+    border-bottom: 1px solid #000000d5;
+
+}
+
+
+.signIn {
+    border-bottom: none;
+}
+
+.signIn:hover {
+    border: none;
+}
+
+#loginCircle {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    border: 1px solid #d5642c;
+    border-radius: 30px;
+}
+
+#loginCircle:hover {
+    transition: 0.1s ease-in-out;
+    background-color: #d54e2c;
+    border: none;
+    border: 1px solid transparent;
+}
+
+.marker {
+    background-image: url('tent.png');
+}
